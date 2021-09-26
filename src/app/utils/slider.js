@@ -1,29 +1,25 @@
-
-// import '../scss/style.scss';
-
-var slideIndex = 1;
-showSlides(slideIndex);
+let slideIndex = 1;
 
 /* Функция увеличивает индекс на 1, показывает следующй слайд*/
-function plusSlide() {
+export const plusSlide = () => {
     showSlides(slideIndex += 1);
 }
 
 /* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
-function minusSlide() {
+export const minusSlide = () => {
     showSlides(slideIndex -= 1);  
 }
 
 /* Устанавливает текущий слайд */
-function currentSlide(n) {
+export const currentSlide = (n) => {
     showSlides(slideIndex = n);
 }
 
 /* Основная функция слайдера */
-function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("item");
-    var dots = document.getElementsByClassName("slider-dots_item");
+export const showSlides = (n) => {
+    let i;
+    const slides = document.querySelector(".item");
+    const dots = document.querySelector(".slider-dots_item");
     if (n > slides.length) {
       slideIndex = 1;
     }

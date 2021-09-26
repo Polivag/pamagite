@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": "./src",
+      "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"]
+      }
+    }
+  ],
+  "rules": {
+    "no-unused-vars": "off",
+    "no-undef": "off"
+  }
+}

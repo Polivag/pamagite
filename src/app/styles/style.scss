@@ -8,7 +8,7 @@ body {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  background-color: #F8F3FF;
+  background-color: #f8f3ff;
 }
 
 .header {
@@ -30,20 +30,17 @@ body {
     margin-right: 32px;
     font-weight: 500;
     font-size: 16px;
-    color: #8E43ED;
+    color: #8e43ed;
     text-decoration: none;
-
   }
 }
-
 
 .title {
   display: flex;
   position: relative;
-  background: #FFFFFF;
+  background: #fff;
   padding: 100px 0 100px 64px;
   border-radius: 250px 0;
-
 
   .title__icons {
     position: absolute;
@@ -86,7 +83,7 @@ body {
       padding-right: 8px;
       font-weight: bold;
       font-size: 16px;
-      color: #AA7ECD;
+      color: #aa7ecd;
     }
 
     .inner__subtitle {
@@ -109,8 +106,6 @@ body {
   }
 }
 
-
-
 .form {
   position: relative;
   padding: 56px 0 48px 64px;
@@ -125,12 +120,12 @@ body {
   .form__icon {
     position: absolute;
     z-index: 1;
-    left: 0px;
+    left: 0;
     top: 440px;
   }
 
   .two {
-    left: 0px;
+    left: 0;
     top: 56px;
   }
 
@@ -174,7 +169,7 @@ body {
   .post {
     width: 976px;
     top: 400px;
-    border: 1px dashed #D9BBFF;
+    border: 1px dashed #d9bbff;
     box-sizing: border-box;
     border-radius: 12px;
     display: flex;
@@ -182,15 +177,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 24px;
-    background: #FFFFFF;
-
-
+    background: #fff;
 
     .form__btn {
       width: 211px;
       height: 56px;
-      background: #FFFFFF;
-      border: 1px solid #8E43ED;
+      background: #fff;
+      border: 1px solid #8e43ed;
       box-sizing: border-box;
       border-radius: 12px;
       font-weight: 500;
@@ -206,7 +199,6 @@ body {
       align-items: center;
       color: #303030;
     }
-
   }
 
   label {
@@ -216,8 +208,6 @@ body {
     align-items: center;
     color: #303030;
   }
-
-
 }
 
 input[type=text] {
@@ -227,11 +217,10 @@ input[type=text] {
   height: 56px;
   left: 64px;
   top: 195px;
-
-  background: #FFFFFF;
-  border: 1px solid #8E43ED;
+  background: #fff;
+  border: 1px solid #8e43ed;
   box-sizing: border-box;
-  border: 1px solid #8E43ED;
+  border: 1px solid #8e43ed;
   border-radius: 12px;
   font-size: 16px;
   align-items: center;
@@ -241,8 +230,8 @@ input[type=text] {
 input[type=file] {
   width: 211px;
   height: 56px;
-  background: #FFFFFF;
-  border: 1px solid #8E43ED;
+  background: #fff;
+  border: 1px solid #8e43ed;
   box-sizing: border-box;
   border-radius: 12px;
   font-weight: 500;
@@ -253,62 +242,34 @@ input[type=file] {
 
 .input::placeholder {
   font-size: 16px;
-  color: #9F9F9F;
+  color: #9f9f9f;
 }
 
 select {
   margin-top: 8px;
   width: 304px;
   height: 56px;
-  border: 1px solid #8E43ED;
+  border: 1px solid #8e43ed;
   padding: 0 37px 0 16px;
   box-sizing: border-box;
   border-radius: 12px;
-  background: #FFFFFF;
+  background: #fff;
 
   option {
-    background: #FDFCFF;
-    border: 1px solid #D4B1FF;
+    background: #fdfcff;
+    border: 1px solid #d4b1ff;
     box-sizing: border-box;
     border-radius: 12px;
   }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .slider {
   max-width: 100%;
   position: relative;
-  background: #FFFFFF;
+  background: #fff;
   padding: 56px 64px;
   height: 535px;
   margin: 0 auto;
-
 }
 
 .slider .item img {
@@ -316,7 +277,6 @@ select {
   width: 100%;
   height: 535px;
   border-radius: 32px;
-
 }
 
 .slider .prev,
@@ -328,13 +288,12 @@ select {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: #FFFFFF;
+  color: #fff;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
-
 
 .slider .next {
   right: 4.5%;
@@ -348,7 +307,8 @@ select {
   color: #fff;
   font-weight: 800;
   font-size: 56px;
-  /* Выравнивание текста по горизонтали и по вертикали*/
+
+  /* Выравнивание текста по горизонтали и по вертикали */
   left: 50%;
   top: 40%;
   transform: translate(-50%, -50%);
@@ -362,11 +322,11 @@ select {
   font-size: 18px;
   line-height: 32px;
   text-align: center;
-  /* Выравнивание текста по горизонтали и по вертикали*/
+
+  /* Выравнивание текста по горизонтали и по вертикали */
   left: 50%;
   top: 55%;
   transform: translate(-50%, -50%);
-
 }
 
 /* Кружочки */
@@ -374,7 +334,7 @@ select {
   position: absolute;
   width: 90%;
   bottom: 82px;
-  text-align: center
+  text-align: center;
 }
 
 .slider-dots_item {
@@ -382,11 +342,10 @@ select {
   height: 12px;
   width: 12px;
   margin: 0 12px;
-  background-color: #FFFFFF;
+  background-color: #fff;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-
 }
 
 .active,
@@ -404,20 +363,20 @@ select {
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4
+    opacity: 0.4;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 @keyframes fade {
   from {
-    opacity: .4
+    opacity: 0.4;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
